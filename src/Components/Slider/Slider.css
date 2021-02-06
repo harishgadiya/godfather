@@ -1,0 +1,32 @@
+.popularity > div {
+    width: 40%;
+    display: flex;
+}
+
+.popularity {
+    margin-left: 280px;
+    margin-top: -50px;
+}
+
+.popularity .MuiTypography-gutterBottom {
+    margin-right: 40px;
+}
+
+.popularity .MuiSlider-root {
+    color: rgba(26,29,36,255);
+}
+
+.popularity .MuiSlider-thumb {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-top: -10px;
+}
+
+.popularity .MuiSlider-valueLabel {
+    color: black;
+}
+
+.popularity .MuiSlider-rail, .popularity .MuiSlider-track {
+    height: 5px;
+}

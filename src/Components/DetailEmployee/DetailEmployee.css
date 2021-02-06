@@ -1,0 +1,39 @@
+.detailWrapper {
+    position: absolute;
+    width: calc(100% - 400px);
+    right: 0;
+    font-size: 15px;
+}
+
+.employee-description {
+    margin-top: 23%;
+}
+
+.details {
+    width: 500px;
+    margin: auto;
+    background: rgba(26,29,36,255);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px auto;
+    color: white;
+    text-align: left;
+    margin-left: 280px;
+}
+
+.employee-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background: #373840;
+    margin-left: 80px;
+}
+
+.employee-name {
+    width: 500px;
+    margin-left: 190px;
+    font-family: "Roboto-med";
+    font-size: 40px;
+    display: flex;
+    margin-top: -25px;
+}

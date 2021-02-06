@@ -1,0 +1,27 @@
+.wrapper {
+    background-color: rgba(128,64,58,0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    font-size: 40px;
+}
+.logo {
+    background-image: url('../../images/the-godfather.svg');
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-position: 50% 36%;
+    background-repeat: no-repeat;
+}
+.employees {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+
+.active, .selected {
+    color: #3cd1fa;
+}
